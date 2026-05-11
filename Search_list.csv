@@ -1,0 +1,803 @@
+﻿Select District,List
+A & N ISLAND,State/UT
+NICOBAR,District
+NORTH & MIDDLE ANDAMAN,District
+SOUTH ANDAMAN,District
+ARUNACHAL PRADESH,State/UT
+ANJAW,District
+CHANGLANG,District
+DIBANG VALLEY,District
+EAST KAMENG,District
+EAST SIANG,District
+KURUNG KUMEY,District
+LOHIT,District
+LOWER DIBANG VALLEY,District
+LOWER SUBANSIRI,District
+PAPUMPARA,District
+TAWANG,District
+TIRAP,District
+UPPER SIANG,District
+UPPER SUBANSIRI,District
+WEST KAMENG,District
+WEST SIANG,District
+ASSAM & MEGHALAYA,State/UT
+ASSAM,State/UT
+BAJALI,District
+BAKSA,District
+BARPETA,District
+BISWANATH,District
+BONGAIGAON,District
+CACHAR,District
+CHARAIDEO,District
+CHIRANG,District
+DARRANG,District
+DHEMAJI,District
+DHUBRI,District
+DIBRUGARH,District
+DIMA HASAO,District
+GOALPARA,District
+GOLAGHAT,District
+HAILAKANDI,District
+HOJAI,District
+JORHAT,District
+KAMRUP (RURAL),District
+KAMRUP METRO.,District
+KARBI ANGLONG,District
+KOKRAJHAR,District
+LAKHIMPUR,District
+MAJULI,District
+MORIGAON,District
+NAGAON,District
+NALBARI,District
+SIBSAGAR,District
+SONITPUR,District
+SOUTH SALMARA,District
+SRIBHUMI,District
+TAMULPUR,District
+TINSUKIA,District
+UDALGURI,District
+WEST KARBI ANGLONG,District
+MEGHALAYA,State/UT
+EAST GARO HILLS,District
+EAST JAINTIA HILLS,District
+EAST KHASI HILLS,District
+NORTH GARO HILLS,District
+RI-BHOI,District
+SOUTH GARO HILLS,District
+SOUTH WEST GARO HILLS,District
+SOUTH WEST KHASI HILLS,District
+WEST GARO HILLS,District
+WEST JAINTIA HILLS,District
+WEST KHASI HILLS,District
+NMMT,State/UT
+NAGALAND,State/UT
+DIMAPUR,District
+KIPHIRE,District
+KOHIMA,District
+LONGLENG,District
+MOKOKCHUNG,District
+MON,District
+PAREN,District
+PHEK,District
+TUENSANG,District
+WOKHA,District
+ZUNHEBOTO,District
+MANIPUR,State/UT
+BISHNUPUR,District
+CHANDEL,District
+CHURACHANDPUR,District
+IMPHAL EAST,District
+IMPHAL WEST,District
+SENAPATI,District
+TAMENGLONG,District
+THOUBAL,District
+UKHRUL,District
+MIZORAM,State/UT
+AIZWAL,District
+CHAMPHAI,District
+KOLASIB,District
+LAWNGTLAI,District
+LUNGLEI,District
+MAMIT,District
+SAIHA,District
+SERCHHIP,District
+TRIPURA,State/UT
+DHALAI,District
+GOMATI,District
+KHOWAI,District
+NORTH TRIPURA,District
+SIPAHIJALA,District
+SOUTH TRIPURA,District
+UNAKOTI,District
+WEST TRIPURA,District
+SHWB & SIKKIM,State/UT
+SIKKIM,State/UT
+GANGTOK,District
+GYALSHING,District
+MANGAN,District
+NAMCHI,District
+PAKYONG,District
+SORENG,District
+WEST BENGAL,State/UT
+ALIPURDUAR,District
+COOCH BEHAR,District
+DARJEELING,District
+JALPAIGURI,District
+KALIMPONG,District
+MALDA,District
+NORTH DINAJPUR,District
+SOUTH DINAJPUR,District
+GANGETIC WEST BENGAL,State/UT
+BANKURA,District
+BIRBHUM,District
+EAST MIDNAPORE,District
+HOOGHLY,District
+HOWRAH,District
+JHARGRAM,District
+KOLKATA,District
+MURSHIDABAD,District
+NADIA,District
+NORTH 24 PARGANAS,District
+PASCHIM BARDHAMAN,District
+PURBA BARDHAMAN,District
+PURULIA,District
+SOUTH 24 PARGANAS,District
+WEST MIDNAPORE,District
+ODISHA,State/UT
+ANGUL,District
+BALASORE,District
+BARGARH,District
+BHADRAK,District
+BOLANGIR,District
+BOUDHGARH,District
+CUTTACK,District
+DEOGARH,District
+DHENKANAL,District
+GAJAPATI,District
+GANJAM,District
+JAGATSINGHPUR,District
+JAJPUR,District
+JHARSUGUDA,District
+KALAHANDI,District
+KANDHAMAL,District
+KENDRAPARA,District
+KEONJHARGARH,District
+KHURDA,District
+KORAPUT,District
+MALKANGIRI,District
+MAYURBHANJ,District
+NAWAPARA,District
+NAWARANGPUR,District
+NAYAGARH,District
+PURI,District
+RAYAGADA,District
+SAMBALPUR,District
+SONEPUR,District
+SUNDARGARH,District
+JHARKHAND,State/UT
+BOKARO,District
+CHATRA,District
+DEOGHAR,District
+DHANBAD,District
+DUMKA,District
+EAST SINGBHUM,District
+GARHWA,District
+GIRIDIH,District
+GODDA,District
+GUMLA,District
+HAZARIBAG,District
+JAMTARA,District
+KHUNTI,District
+KODERMA,District
+LATEHAR,District
+LOHARDAGA,District
+PAKUR,District
+PALAMU,District
+RAMGARH,District
+RANCHI,District
+SAHIBGANJ,District
+SERAIKELA-KHARSAWAN,District
+SIMDEGA,District
+WEST SINGBHUM,District
+BIHAR,State/UT
+ARARIA,District
+ARWAL,District
+AURANGABAD,District
+BANKA,District
+BEGUSARAI,District
+BHABUA,District
+BHAGALPUR,District
+BHOJPUR,District
+BUXAR,District
+DARBHANGA,District
+EAST CHAMPARAN,District
+GAYA,District
+GOPALGANJ,District
+JAHANABAD,District
+JAMUI,District
+KATIHAR,District
+KHAGARIA,District
+KISHANGANJ,District
+LAKHISARAI,District
+MADHEPURA,District
+MADHUBANI,District
+MONGHYR,District
+MUZAFFARPUR,District
+NALANDA,District
+NAWADA,District
+PATNA,District
+PURNEA,District
+ROHTAS,District
+SAHARSA,District
+SAMASTIPUR,District
+SARAN,District
+SHEIKHPURA,District
+SHEOHAR,District
+SITAMARHI,District
+SIWAN,District
+SUPAUL,District
+VAISHALI,District
+WEST CHAMPARAN,District
+UTTAR PRADESH,State/UT
+EAST UTTAR PRADESH,State/UT
+AMBEDKAR NAGAR,District
+AMETHI,District
+AYODHYA,District
+AZAMGARH,District
+BAHRAICH,District
+BALLIA,District
+BALRAMPUR,District
+BANDA,District
+BARABANKI,District
+BASTI,District
+BHADOHI,District
+CHANDAULI,District
+CHITRAKOOT,District
+DEORIA,District
+FARRUKHABAD,District
+FATEHPUR,District
+GHAZIPUR,District
+GONDA,District
+GORAKHPUR,District
+HARDOI,District
+JAUNPUR,District
+KANNAUJ,District
+KANPUR CITY,District
+KANPUR DEHAT,District
+KAUSHAMBI,District
+KHERI,District
+KUSHI NAGAR,District
+LUCKNOW,District
+MAHARAJGANJ,District
+MAU,District
+MIRZAPUR,District
+PRATAPGARH,District
+PRAYAGRAJ,District
+RAE BAREILLY,District
+SANT KABIR NAGAR,District
+SHRAWASTI NAGAR,District
+SIDDHARTH NAGAR,District
+SITAPUR,District
+SONBHADRA,District
+SULTANPUR,District
+UNNAO,District
+VARANASI,District
+WEST UTTAR PRADESH,State/UT
+AGRA,District
+ALIGARH,District
+AMROHA,District
+AURAIYA,District
+BADAUN,District
+BAGHPAT,District
+BAREILLY,District
+BIJNOR,District
+BULANDSHAHAR,District
+ETAH,District
+ETAWAH,District
+FIROZABAD,District
+GAUTAM BUDDHA NAGAR,District
+GHAZIABAD,District
+HAMIRPUR,District
+HAPUR,District
+HATHRAS,District
+JALAUN,District
+JHANSI,District
+KASGANJ,District
+LALITPUR,District
+MAHOBA,District
+MAINPURI,District
+MATHURA,District
+MEERUT,District
+MORADABAD,District
+MUZAFFARNAGAR,District
+PILIBHIT,District
+RAMPUR,District
+SAHARANPUR,District
+SAMBHAL,District
+SHAHJAHANPUR,District
+SHAMLI,District
+UTTARAKHAND,State/UT
+ALMORA,District
+BAGESHWAR,District
+CHAMOLI,District
+CHAMPAWAT,District
+DEHRADUN,District
+GARHWAL PAURI,District
+GARHWAL TEHRI,District
+HARDWAR,District
+NAINITAL,District
+PITHORAGARH,District
+RUDRAPRAYAG,District
+UDHAM SINGH NAGAR,District
+UTTARKASHI,District
+HAR. CHD & DELHI,State/UT
+HARYANA,State/UT
+AMBALA,District
+BHIWANI,District
+CHARKHI DADRI,District
+FARIDABAD,District
+FATEHABAD,District
+GURGAON,District
+HISAR,District
+JHAJJAR,District
+JIND,District
+KAITHAL,District
+KARNAL,District
+KURUKSHETRA,District
+MAHENDRAGARH,District
+NUH,District
+PALWAL,District
+PANCHKULA,District
+PANIPAT,District
+REWARI,District
+ROHTAK,District
+SIRSA,District
+SONEPAT,District
+YAMUNA NAGAR,District
+CHANDIGARH (UT),State/UT
+DELHI,State/UT
+CENTRAL DELHI,District
+EAST DELHI,District
+NEW DELHI,District
+NORTH DELHI,District
+NORTH EAST DELHI,District
+NORTH WEST DELHI,District
+SOUTH DELHI,District
+SOUTH EAST DELHI,District
+SOUTH WEST DELHI,District
+WEST DELHI,District
+PUNJAB,State/UT
+AMRITSAR,District
+BARNALA,District
+BHATINDA,District
+FARIDKOT,District
+FATEHGARH SAHIB,District
+FAZILKA,District
+FEROZEPUR,District
+GURDASPUR,District
+HOSHIARPUR,District
+JALANDHAR,District
+KAPURTHALA,District
+LUDHIANA,District
+MANSA,District
+MOGA,District
+MUKTSAR,District
+PATHANKOT,District
+PATIALA,District
+RUPNAGAR,District
+SANGRUR,District
+SAS NAGAR (MOHALI),District
+SBS NAGAR,District
+TARN TARAN,District
+HIMACHAL PRADESH,State/UT
+BILASPUR,District
+CHAMBA,District
+HAMIRPUR,District
+KANGRA,District
+KINNAUR,District
+KULLU,District
+LAHAUL & SPITI,District
+MANDI,District
+SHIMLA,District
+SIRMAUR,District
+SOLAN,District
+UNA,District
+J & K AND LADAKH,State/UT
+JAMMU & KASHMIR(UT),State/UT
+ANANTNAG,District
+BADGAM,District
+BANDIPORE,District
+BARAMULA,District
+DODA,District
+GANDERBAL,District
+JAMMU,District
+KATHUA,District
+KISTWAR,District
+KULGAM,District
+KUPWARA,District
+POONCH,District
+PULWAMA,District
+RAJOURI,District
+RAMBAN,District
+REASI,District
+SAMBA,District
+SHOPIAN,District
+SRINAGAR,District
+UDHAMPUR,District
+LADAKH (UT),State/UT
+KARGIL,District
+LADAKH (LEH),District
+RAJASTHAN,State/UT
+EAST RAJASTHAN,State/UT
+AJMER,District
+ALWAR,District
+BANSWARA,District
+BARAN,District
+BHARATPUR,District
+BHILWARA,District
+BUNDI,District
+CHITTORGARH,District
+DAUSA,District
+DHOLPUR,District
+DUNGARPUR,District
+JAIPUR,District
+JHALAWAR,District
+JHUNJHUNU,District
+KARAULI,District
+KOTA,District
+PRATAPGARH,District
+RAJSAMAND,District
+SAWAI MADHOPUR,District
+SIKAR,District
+SIROHI,District
+TONK,District
+UDAIPUR,District
+WEST RAJASTHAN,State/UT
+BARMER,District
+BIKANER,District
+CHURU,District
+HANUMANGARH,District
+JAISALMER,District
+JALORE,District
+JODHPUR,District
+NAGAUR,District
+PALI,District
+SRI GANGANAGAR,District
+MADHYA PRADESH,State/UT
+EAST MADHYA PRADESH,State/UT
+ANUPPUR,District
+BALAGHAT,District
+CHHATARPUR,District
+CHHINDWARA,District
+DAMOH,District
+DINDORI,District
+JABALPUR,District
+KATNI,District
+MANDLA,District
+NARSINGHPUR,District
+NIWARI,District
+PANNA,District
+REWA,District
+SAGAR,District
+SATNA,District
+SEONI,District
+SHAHDOL,District
+SIDHI,District
+SINGRAULI,District
+TIKAMGARH,District
+UMARIA,District
+WEST MADHYA PRADESH,State/UT
+AGAR-MALWA,District
+ALIRAJPUR,District
+ASHOKNAGAR,District
+BARWANI,District
+BETUL,District
+BHIND,District
+BHOPAL,District
+BURHANPUR,District
+DATIA,District
+DEWAS,District
+DHAR,District
+GUNA,District
+GWALIOR,District
+HARDA,District
+INDORE,District
+JHABUA,District
+KHANDWA,District
+KHARGONE,District
+MANDSAUR,District
+MORENA,District
+NARMADAPURAM,District
+NEEMUCH,District
+RAISEN,District
+RAJGARH,District
+RATLAM,District
+SEHORE,District
+SHAJAPUR,District
+SHEOPUR,District
+SHIVPURI,District
+UJJAIN,District
+VIDISHA,District
+GUJARAT,State/UT
+GUJARAT REGION,State/UT
+AHMEDABAD,District
+ANAND,District
+ARAVALLI,District
+BANASKANTHA,District
+BHARUCH,District
+CHHOTA UDEPUR,District
+DADARA & NAGAR HAVELI,District
+DAHOD,District
+DAMAN,District
+DANGS,District
+GANDHINAGAR,District
+KHEDA,District
+MAHISAGAR,District
+MEHSANA,District
+NARMADA,District
+NAVSARI,District
+PANCHMAHAL,District
+PATAN,District
+SABARKANTHA,District
+SURAT,District
+TAPI,District
+VADODARA,District
+VALSAD,District
+SAURASHTRA & KUTCH,State/UT
+AMRELI,District
+BHAVNAGAR,District
+BOTAD,District
+DEVBHOOMI DWARKA,District
+DIU,District
+GIR SOMNATH,District
+JAMNAGAR,District
+JUNAGADH,District
+KUTCH,District
+MORBI,District
+PORBANDAR,District
+RAJKOT,District
+SURENDRANAGAR,District
+DADARA & NAGAR HAVELI  AND DAMAN & DIU (UT),State/UT
+DADARA & NAGAR HAVELI,District
+DAMAN,District
+DIU,District
+KONKAN & GOA,State/UT
+GOA,State/UT
+NORTH GOA,District
+SOUTH GOA,District
+MAHARASHTRA,State/UT
+MUMBAI CITY,District
+MUMBAI SUBURBAN,District
+PALGHAR,District
+RAIGAD,District
+RATNAGIRI,District
+SINDHUDURG,District
+THANE,District
+MADHYA MAHARASHTRA,State/UT
+AHMEDNAGAR,District
+DHULE,District
+JALGAON,District
+KOLHAPUR,District
+NANDURBAR,District
+NASHIK,District
+PUNE,District
+SANGLI,District
+SATARA,District
+SHOLAPUR,District
+MARATHWADA,State/UT
+BEED,District
+CHH. SAMBHAJINAGAR,District
+DHARASHIV,District
+HINGOLI,District
+JALNA,District
+LATUR,District
+NANDED,District
+PARBHANI,District
+VIDARBHA,State/UT
+AKOLA,District
+AMRAOTI,District
+BHANDARA,District
+BULDHANA,District
+CHANDRAPUR,District
+GADCHIROLI,District
+GONDIA,District
+NAGPUR,District
+WARDHA,District
+WASHIM,District
+YEOTMAL,District
+CHHATTISGARH,State/UT
+BALOD,District
+BALODA BAZAR,District
+BALRAMPUR,District
+BASTAR,District
+BEMETARA,District
+BIJAPUR,District
+BILASPUR,District
+DANTEWADA,District
+DHAMTARI,District
+DURG,District
+GARIABAND,District
+GAURELA-PENDRA-MARWAHI,District
+JANJGIR-CHAMPA,District
+JASHPUR,District
+KABIRDHAM,District
+KANKER,District
+KHAIRAGARH-CHHUIKHADAN-GANDAI,District
+KONDAGAON,District
+KORBA,District
+KOREA,District
+MAHASAMUND,District
+MANENDRAGARH-CHIRMIRI-BHARATPUR,District
+MOHALA-MANPUR-CHOWKI,District
+MUNGELI,District
+NARAYANPUR,District
+RAIGARH,District
+RAIPUR,District
+RAJNANDGAON,District
+SAKTI,District
+SARANGARH-BILAIGARH,District
+SUKMA,District
+SURAJPUR,District
+SURGUJA,District
+ANDHRA PRADESH,State/UT
+COASTAL A. P. & YANAM,State/UT
+ANAKAPALLI,District
+BAPATLA,District
+DR B R AMBEDKAR KONASEEMA,District
+EAST GODAVARI,District
+ELURU,District
+GUNTUR,District
+KAKINADA,District
+KRISHNA,District
+NTR DISTRICT,District
+PALNADU,District
+PARVATHIPURAM MANYAM,District
+PRAKASAM,District
+SPSR NELLORE,District
+SRI ALLURI SITHARAMARAJU DISTRICT,District
+SRIKAKULAM,District
+VISHAKHAPATNAM,District
+VIZIANAGARAM,District
+WEST GODAVARI,District
+YANAM,District
+RAYALASEEMA,State/UT
+ANANTAPURAMU,District
+ANNAMAYYA DISTRICT,District
+CHITTOOR,District
+KURNOOL,District
+NANDYAL,District
+SRI SATHYASAI DISTRICT,District
+TIRUPATI,District
+YSR DISTRICT,District
+TELANGANA,State/UT
+ADILABAD,District
+B. KOTHAGUDEM,District
+HANUMAKONDA,District
+HYDERABAD,District
+J. BHUPALPALLY,District
+JAGTIAL,District
+JANGAON,District
+JOGULAMBA GADWAL,District
+KAMAREDDY,District
+KARIMNAGAR,District
+KHAMMAM,District
+KUMARAM BHEEM,District
+M. MALKAJGIRI,District
+MAHABUBABAD,District
+MAHABUBNAGAR,District
+MANCHERIAL,District
+MEDAK,District
+MULUGU,District
+NAGARKURNOOL,District
+NALGONDA,District
+NARAYANPET,District
+NIRMAL,District
+NIZAMABAD,District
+PEDDAPALLE,District
+RAJANNA SIRCILLA,District
+RANGAREDDY,District
+SANGAREDDY,District
+SIDDIPET,District
+SURYAPET,District
+VIKARABAD,District
+WANAPARTHY,District
+WARANGAL,District
+Y. BHUVANAGIRI,District
+TAMIL. PUDU.& KARAIKAL,State/UT
+TAMILNADU,State/UT
+ARIYALUR,District
+CHENGALPATTU,District
+CHENNAI,District
+COIMBATORE,District
+CUDDALORE,District
+DHARMAPURI,District
+DINDIGUL,District
+ERODE,District
+KALLAKURICHI,District
+KANCHEEPURAM,District
+KANYAKUMARI,District
+KARUR,District
+KRISHNAGIRI,District
+MADURAI,District
+MAYILADUTHURAI,District
+NAGAPATTINAM,District
+NAMAKKAL,District
+NILGIRIS,District
+PERAMBALUR,District
+PUDUKKOTTAI,District
+RAMANATHAPURAM,District
+RANIPET,District
+SALEM,District
+SIVAGANGA,District
+TENKASI,District
+THANJAVUR,District
+THENI,District
+TIRUNELVELI,District
+TIRUPATTUR,District
+TIRUPPUR,District
+TIRUVALLUR,District
+TIRUVANNAMALAI,District
+TIRUVARUR,District
+TOOTHUKUDI,District
+TRICHY,District
+VELLORE,District
+VILLUPURAM,District
+VIRUDHUNAGAR,District
+PUDUCHERRY (UT),State/UT
+KARAIKAL,District
+MAHE,District
+PUDUCHERRY,District
+YANAM,District
+KARNATAKA,State/UT
+COASTAL KARNATAKA,State/UT
+DAKSHINA KANNADA,District
+UDUPI,District
+UTTARA KANNADA,District
+N. I. KARNATAKA,State/UT
+BAGALKOTE,District
+BELAGAVI,District
+BIDAR,District
+DHARWAD,District
+GADAG,District
+HAVERI,District
+KALABURGI,District
+KOPPAL,District
+RAICHUR,District
+VIJAYAPURA,District
+YADGIR,District
+S. I. KARNATAKA,State/UT
+BALLARI,District
+BENGALURU RURAL,District
+BENGALURU URBAN,District
+CHAMARAJANAGAR,District
+CHIKABALLAPURA,District
+CHIKKAMAGALURU,District
+CHITRADURGA,District
+DAVANGERE,District
+HASSAN,District
+KODAGU,District
+KOLAR,District
+MANDYA,District
+MYSURU,District
+RAMANAGARA,District
+SHIVAMOGGA,District
+TUMAKURU,District
+VIJAYANAGARA,District
+KERALA & MAHE,State/UT
+KERALA,State/UT
+ALAPUZHA,District
+CANNUR,District
+ERNAKULAM,District
+IDUKKI,District
+KASARGOD,District
+KOLLAM,District
+KOTTAYAM,District
+KOZHIKODE,District
+MALAPPURAM,District
+PALAKKAD,District
+PATHANAMTHITTA,District
+THIRUVANANTHAPURAM,District
+THRISSUR,District
+WYNAD,District
+MAHE,District
+LAKSHADWEEP,State/UT
