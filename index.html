@@ -2,36 +2,127 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Rainfall Data Search & Map</title>
+    <title>IMD Rainfall Explorer | YYYY-MM-DD Format</title>
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
     <style>
-        body { font-family: Arial, sans-serif; margin: 20px; background-color: #f4f7f6; }
-        #search-container { margin-bottom: 20px; }
-        input { padding: 10px; width: 300px; border-radius: 5px; border: 1px solid #ccc; }
-        #main-content { display: flex; gap: 20px; height: 500px; }
-        #results { width: 30%; overflow-y: auto; background: white; padding: 10px; border-radius: 8px; border: 1px solid #ddd; }
-        #map { width: 70%; border-radius: 8px; border: 1px solid #ddd; }
-        .data-item { padding: 10px; border-bottom: 1px solid #eee; cursor: pointer; }
-        .data-item:hover { background-color: #e9f5ff; }
+        body { font-family: 'Segoe UI', sans-serif; margin: 0; display: flex; height: 100vh; background: #f8fafc; }
+        .sidebar { width: 420px; padding: 20px; background: white; box-shadow: 2px 0 15px rgba(0,0,0,0.1); overflow-y: auto; z-index: 1000; }
+        #map { flex-grow: 1; }
+        .ui-card { background: #fff; border: 1px solid #e2e8f0; padding: 20px; border-radius: 10px; margin-bottom: 20px; }
+        h2 { color: #1e40af; margin-top: 0; border-bottom: 2px solid #eff6ff; padding-bottom: 10px; }
+        label { display: block; font-weight: 600; margin-top: 12px; font-size: 13px; color: #475569; }
+        input, select { width: 100%; padding: 10px; margin-top: 5px; border: 1px solid #cbd5e1; border-radius: 6px; box-sizing: border-box; font-size: 14px; }
+        .date-row { display: flex; gap: 10px; }
+        button { width: 100%; padding: 12px; background: #2563eb; color: white; border: none; border-radius: 6px; font-weight: bold; cursor: pointer; margin-top: 20px; }
+        button:hover { background: #1d4ed8; }
+        .results-table { width: 100%; border-collapse: collapse; margin-top: 20px; font-size: 12px; }
+        .results-table th, .results-table td { border: 1px solid #f1f5f9; padding: 10px; text-align: center; }
+        .results-table th { background: #f8fafc; color: #64748b; }
+        .success-row { background: #f0fdf4; color: #166534; }
+        .fail-row { color: #94a3b8; font-style: italic; }
     </style>
 </head>
 <body>
 
-    <h2>Rainfall Data Dashboard</h2>
-    
-    <div id="search-container">
-        <input type="text" id="searchInput" placeholder="Search by District or Station..." onkeyup="filterData()">
-    </div>
-
-    <div id="main-content">
-        <div id="results">
-            <div id="list"></div>
+<div class="sidebar">
+    <h2>IMD Data Portal</h2>
+    <div class="ui-card">
+        <label>Select Date Range (YYYY-MM-DD)</label>
+        <div class="date-row">
+            <input type="date" id="start" value="2026-04-01">
+            <input type="date" id="end" value="2026-04-01">
         </div>
-        <div id="map"></div>
+
+        <label>District Selection</label>
+        <input type="text" id="searchBox" placeholder="Quick search district..." onkeyup="filterItems()">
+        <select id="districtSelect" size="10" onchange="zoomToDistrict()">
+            {% for d in districts %}
+            <option value="{{ d }}">{{ d }}</option>
+            {% endfor %}
+        </select>
+
+        <button onclick="runAnalysis()">Search PDFs</button>
     </div>
 
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="script.js"></script>
+    <table class="results-table" id="resTable" style="display:none">
+        <thead>
+            <tr><th>Date</th><th>Act</th><th>Norm</th><th>% Dep</th><th>Cat</th></tr>
+        </thead>
+        <tbody id="resBody"></tbody>
+    </table>
+</div>
+
+<div id="map"></div>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+    let map = L.map('map').setView([22.97, 78.65], 5);
+    L.tileLayer('https://{s}.tile.osm.org/{z}/{x}/{y}.png').addTo(map);
+
+    let indiaLayer;
+    fetch('/get_map_data')
+        .then(r => r.json())
+        .then(data => {
+            indiaLayer = L.geoJSON(data, {
+                style: { color: "#3b82f6", weight: 1, fillOpacity: 0.05 },
+                onEachFeature: (f, l) => l.bindPopup(`<b>${f.properties.district}</b>`)
+            }).addTo(map);
+        });
+
+    function filterItems() {
+        let q = document.getElementById('searchBox').value.toUpperCase();
+        let options = document.getElementById('districtSelect').options;
+        for (let opt of options) opt.style.display = opt.text.toUpperCase().includes(q) ? "" : "none";
+    }
+
+    function zoomToDistrict() {
+        let target = document.getElementById('districtSelect').value.split(" (")[0].toUpperCase();
+        indiaLayer.eachLayer(l => {
+            if (l.feature.properties.district.toUpperCase() === target) {
+                map.fitBounds(l.getBounds());
+                l.setStyle({ fillOpacity: 0.3, fillColor: "#2563eb" });
+                l.openPopup();
+            } else {
+                l.setStyle({ fillOpacity: 0.05, fillColor: "#3b82f6" });
+            }
+        });
+    }
+
+    async function runAnalysis() {
+        const body = document.getElementById('resBody');
+        const payload = {
+            startDate: document.getElementById('start').value,
+            endDate: document.getElementById('end').value,
+            district: document.getElementById('districtSelect').value
+        };
+        
+        if(!payload.district) return alert("Please select a district.");
+
+        document.getElementById('resTable').style.display = "table";
+        body.innerHTML = "<tr><td colspan='5'>Scanning files...</td></tr>";
+
+        const resp = await fetch('/search_range', {
+            method: 'POST',
+            headers: {'Content-Type': 'application/json'},
+            body: JSON.stringify(payload)
+        });
+        
+        const data = await resp.json();
+        body.innerHTML = "";
+        
+        data.results.forEach(r => {
+            let tr = document.createElement('tr');
+            if(r.found) {
+                tr.className = "success-row";
+                // Show values for: Daily Actual, Daily Normal, Daily % Dep, Daily Cat
+                tr.innerHTML = `<td>${r.date}</td><td>${r.data[0]}</td><td>${r.data[1]}</td><td>${r.data[2]}</td><td>${r.data[3]}</td>`;
+            } else {
+                tr.className = "fail-row";
+                tr.innerHTML = `<td>${r.date}</td><td colspan="4">File Not Found</td>`;
+            }
+            body.appendChild(tr);
+        });
+    }
+</script>
 </body>
 </html>
